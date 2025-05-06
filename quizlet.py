@@ -1,6 +1,5 @@
 import re
 
-
 def main():
     output = 'quizlet.txt'
     words_list = input("Type the words you want to split into a text file to convert to duckyscript:\n")
@@ -12,7 +11,6 @@ def main():
             f.write('STRING ' + word[p] + '\n')
             f.write('TAB\n')
             p+=1
-
 
 if __name__ == "__main__":
     main()
